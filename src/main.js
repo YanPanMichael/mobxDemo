@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
-import {action, observable} from 'mobx';
-import {observer} from 'mobx-react';
+import { action, observable } from 'mobx';
+import { observer } from 'mobx-react';
 
 let appState = observable({ timer: 0});
 
